@@ -20,11 +20,11 @@ btnColor[2]="yellow";
 btnColor[3]="green";
 
 var audio=[];
-audio[0]= new Audio("file:///C:/Users/lenovo/Desktop/Simon Game/sounds/red.mp3");
-audio[1]= new Audio("file:///C:/Users/lenovo/Desktop/Simon Game/sounds/blue.mp3");
-audio[2]= new Audio("file:///C:/Users/lenovo/Desktop/Simon Game/sounds/yellow.mp3");
-audio[3]= new Audio("file:///C:/Users/lenovo/Desktop/Simon Game/sounds/green.mp3");
-audio[4]= new Audio("file:///C:/Users/lenovo/Desktop/Simon Game/sounds/wrong.mp3");
+audio[0]= new Audio("red.mp3");
+audio[1]= new Audio("blue.mp3");
+audio[2]= new Audio("yellow.mp3");
+audio[3]= new Audio("green.mp3");
+audio[4]= new Audio("wrong.mp3");
 
 $(".btn").each(function(index, element){
 $(this).on("click",function(){
