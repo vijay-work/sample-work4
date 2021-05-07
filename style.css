@@ -29,6 +29,10 @@ p{
         border-radius:25px;
         margin:5px;
     }
+
+button:focus {
+    outline:0;
+}
     .btn-green{
         background-color:green;
     }
